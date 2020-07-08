@@ -14,7 +14,7 @@ import com.atguigu.springcloud.entities.Payment;
 @Mapper
 public interface PaymentDao {
 
-    public int add(Payment payment);
+     int add(Payment payment);
 
-    public Payment getPaymentById(@Param("id") Long id);
+     Payment getPaymentById(@Param("id") Long id);
 }
